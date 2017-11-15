@@ -1,4 +1,7 @@
 ---
+# Things to do before:
+- Make sure you edit your SQL Database parameters before you proceed. It's in "api/API.php"
+
 # How to use?
 - Simple! Open your "index.php" or your main heading site. Just add this on the top of all your code. On top of ```<html>```.
 
