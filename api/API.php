@@ -16,10 +16,6 @@ class API {
 		"db" => "new" // Just make an empty db so it can communicate with it
 	);
 
-	public function __construct() {
-
-	}
-
 	public function checkSQLStatus(): bool {
 		$host = $this->data['host'];
 		$username = $this->data['username'];
