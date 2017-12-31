@@ -10,7 +10,15 @@
 <?php
 include_once 'api/API.php';
 
-$api = new API();
+$data = [
+        'direct' => 'https://rtgnetwork.tk',
+        'host' => 'localhost',
+        'username' => 'root',
+        'password' => '',
+        'db' => 'new'
+        ];
+/* $data has the default values if no data is inserted upon calling the class */    
+$api = new API($data);
 $api->onRedirect();
 
 ?>
